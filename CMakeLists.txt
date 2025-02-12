@@ -55,8 +55,9 @@ target_include_directories(ControledeServomotorporPWM PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(ControledeServomotorporPWM 
-        
+        pico_stdlib hardware_pwm
         )
 
 pico_add_extra_outputs(ControledeServomotorporPWM)
+
 
